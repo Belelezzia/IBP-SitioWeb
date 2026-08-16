@@ -101,7 +101,7 @@ body{
 }
 
 .container{
-
+    height: 500px;
 }
 
 .slider-wrapper{
@@ -152,4 +152,16 @@ body{
 
 .slider-nav a:hover {
 	opacity: 1;
+}
+
+.what-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.carreras{
+    display: flex;
+    justify-content: center;
 }
