@@ -27,6 +27,7 @@ body{
 .links-box{
     display: flex;
     justify-content: right;
+    flex-wrap: wrap;
     gap: 15px;
     width: 100%;
     padding-right: 10px;
@@ -70,9 +71,10 @@ body{
 
 .nav-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    gap: 70px;
+    flex-wrap: wrap;
+    width: 70%;
 }
 
 .logo img{
@@ -81,9 +83,10 @@ body{
 }
 
 .nav-container .admission-btn{
+    display: block;
     background-color: var(--color-secundario);
     color: #fff;
-    padding: 5px 15px;
+    padding: 5px 5px;
     border-radius: 5px;
 }
 
@@ -129,6 +132,8 @@ body{
 
 .r-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .r-card{
