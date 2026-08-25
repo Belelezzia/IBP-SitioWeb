@@ -21,20 +21,27 @@ body{
 }
 header{
     background-color: #fff;
+    width: 100%;
 }
 
 .header-top{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     padding: 5px;
     font-weight: bold;
     background-color: #d7dceb;
 
     & .media-links{
         display: flex;
-        justify-content: center;
-        gap: 5px;
+        gap: 1rem;
+    }
+
+    & .links{
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
     }
 
     & a{
@@ -42,25 +49,23 @@ header{
         color: var(--color-secundario);
     }
 
-    & .links-box a:hover{
+    & a:hover{
         color: var(--color-primario);
     }
 }
 
 .header-bottom{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     font-weight: bold;
-
-    & .logo{
-    }
+    flex-wrap: wrap;
 
     & nav ul{
         display: flex;
         justify-content: center;
         list-style-type: none;
-        gap: 9px;
+        gap: 1.3rem;
 
         & a:hover{
             color: var(--color-primario);
@@ -81,6 +86,8 @@ header{
         padding: 6px 15px;
     }
 
-
+    & .admision:hover{
+        background: var(--color-primario);
+    }
 }
 
