@@ -56,10 +56,14 @@ header{
 
 .header-bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     font-weight: bold;
     flex-wrap: wrap;
+
+    .logo img{
+        height: 60px;
+    }
 
     & nav ul{
         display: flex;

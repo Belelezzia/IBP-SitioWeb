@@ -5,8 +5,8 @@
 :root{
     --color-primario: #001f54;
     --color-secundario: #0e34a0;
-    --color-claro: #d7dceb;
-    --color-white: #fff;
+    /* --color-claro: #d7dceb;
+    --color-white: #fff; */
 }
 
 *{
@@ -16,20 +16,22 @@
     font-family: Montserrat, Roboto;
 }
 
-.logo img{
-    height: 60px;
-    padding-left: 30px;
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+
 }
 
-.nav-container .admission-btn{
-    display: block;
-    background-color: var(--color-secundario);
-    color: #fff;
-    padding: 5px 5px;
-    border-radius: 5px;
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75;
 }
 
-.slider img{
+/* .slider img{
     width: 100%;
     aspect-ratio: 3/1;
     object-fit: cover;
@@ -67,135 +69,4 @@
     & .tyc{
         display: flex;
     }
-}
-
-.whatto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--color-primario);
-    & h2{
-        color: #fff;
-        margin: 20px 0 0 0;
-    }
-}
-
-.whatto .cards{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    padding: 15px;
-    & img {
-        aspect-ratio: 2/3;
-        width: 100%;
-        object-fit: cover;
-    }
-}
-
-.card h5{
-    display: block;
-    text-align: center;
-
-}
-
-.whyibp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-    & h2{
-        color: var(--color-secundario);
-        padding: 15px 0;
-    }
-}
-
-.r-container{
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 10px;
-    justify-content: center;
-}
-
-.r-card{
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 200px;
-    max-width: 400px;
-    justify-content: center;
-    text-align: justify;
-    padding: 20px 15px 20px 15px;
-    & h3 {
-        padding: 5px 0;
-        text-align: center;
-    }
-    & svg{
-        width: 80px;
-    }
-}
-
-.convenios{
-    border: 1px solid;
-    display: flex;
-    justify-content: center;
-}
-
-.blog{
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-    & .news{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-
-        & .new-card img{
-            height: 400px;
-            object-fit: cover;
-        }
-    }
-}
-
-.sede{
-    border: 1px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.convenios{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.carrusel{
-    display: flex;
-}
-
-.convs img{
-    height: 150px;
-}
-
-footer{
-    background-color: var(--color-primario);
-}
-
-.socialmedia{
-    & svg {
-        width: 24px;
-    }
-}
-
-.contact{
-    border: 1px solid white;
-    color: #fff;
-}
+} */
