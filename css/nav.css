@@ -63,6 +63,7 @@ header{
     align-items: center;
     font-weight: bold;
     flex-wrap: wrap;
+    background-color: #fff;
 
     & .logo img{
         height: 60px;
