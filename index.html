@@ -3,170 +3,181 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--links-->
     <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="css/nav.css">
     <script src="https://kit.fontawesome.com/a4b4fae7be.js" crossorigin="anonymous"></script>
-    <link rel="icon" type="image/png" href="imgs/ibpweb.png">
+    <!---->
+
+    <!-- <link rel="icon" type="image/png" href="imgs/ibpweb.png"> -->
+
     <title>Instituto El Buen Pastor | IBP</title>
   </head>
   <body>
 
-    <!-- ***Header*** -->
+    <!--Sitio Web NO Responsive de momento-->
+
+    <!-- navbar -->
 
     <header class="header">
-
-      <div class="header-top">
-        <div class="media-links">
+      <div class="top">
+        <div class="socialmedia">
           <a href="https://www.facebook.com/ibp.edu.pe/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
           <a href="https://www.instagram.com/ibp.edu.pe/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
           <a href="https://www.tiktok.com/@institutoelbuenpastor" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
         </div>
-        <div class="links">
-          <a href="" class="intranet">Intranet</a>
-          <a href="" class="bolsa-laboral">***</a>
-          <a href="" class="biblioteca-virtual">Biblioteca Virtual</a>
+        <div class="services">
+          <a href="#">Intranet</a>
+          <a href="#">Bolsa Laboral</a>
+          <a href="#">Biblioteca Virtual</a>
         </div>
       </div>
 
-      <div class="header-bottom">
-        <a href="" class="logo"><img src="../imgs/logo transparent.png" alt=""></a>
-        <nav>
+      <div class="bottom">
+        <nav class="navbar">
+          <a href="#" class="logo"><img src="imgs/logo.png" alt=""></a>
           <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="pages/carreras.html">Nuestras Carreras</a></li>
-            <li><a href="pages/us.html">Nosotros</a></li>
-            <li><a href="">Servicios</a></li>
+            <li><a href="index.html">Inicio</a></li>
           </ul>
+          <ul>
+            <li><a href="pages/carreras.html">Nuestras Carreras</a></li>
+          </ul>
+          <ul>
+            <li><a href="pages/servicios.html">Servicios</a></li>
+          </ul>
+          <ul>
+            <li><a href="pages/nosotros.html">Nosotros</a></li>
+          </ul>
+          <a href="pages/admision.html" class="btn">ADMISIÓN</a>
         </nav>
-        <a href="" class="admision">ADMISIÓN</a>
       </div>
-  
     </header>
-    <!-- ************************************** -->
-
-
-    <!-- ***Main*** -->
-
     <main>
       <section class="container">
         <div class="slider-wrapper">
           <div class="slider">
-            <div class="gradient"></div>
-            <img src="imgs/banner-right.png" alt="" id="slide-1">
-            <img src="imgs/banner-left.png" alt="" id="slide-2">
-            <img src="imgs/banner-caps.png" alt="" id="slide-3">         
+            <img src="imgs/banner-caps.png" alt="">
+            <img src="imgs/banner-left.png" alt="">
+            <img src="imgs/banner-right.png" alt="">
           </div>
+        </div>
 
-          <div class="slider-nav">
-          <a href="#slide-1"></a>
-          <a href="#slide-2"></a>
-          <a href="#slide-3"></a>
-         </div>
+        <div class="slider-nav">
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
         </div>
       </section>
 
       <section class="whyibp">
         <h3>¿POR QUÉ ELEGIR EL IBP?</h3>
-        <div class="whycards">
-          <div class="card">
+        <div class="items">
+          <div class="item">
             <i class="fa-regular fa-circle-check" style="display: block; margin: 0 auto;width: fit-content;font-size: 50px;"></i>
             <h4>Somos un Instituto Licenciado por el MINEDU (RM N° 02-2024)</h4>
           </div>
-
-          <div class="card">
+          <div class="item">
             <i class="fa-solid fa-building-shield" style="display: block; margin: 0 auto;width: fit-content;font-size: 50px;"></i>
             <h4>Estamos respaldados por parte del Consorcio de Instituciones Educativas de la Diócesis de Carabayllo - CIEDC</h4>
           </div>
-          <div class="card">
+          <div class="item">
             <i class="fa-solid fa-medal" style="display: block; margin: 0 auto;width: fit-content;font-size: 50px;"></i>
             <h4>Una institución que cuenta con + de 30 años de trayectoria y experiencia en formación profesional</h4>
           </div>
-
-          <div class="card">
-            <i class="fa-solid fa-suitcase" style="display: block; margin: 0 auto;width: fit-content;font-size: 50px;"></i>
-            <h4></h4>
-          </div>
-
-          <div class="card">
+          <div class="item">
             <i class="fa-solid fa-comments-dollar" style="display: block; margin: 0 auto;width: fit-content;font-size: 50px;"></i>
             <h4>Te brindamos un formación profesional de la calidad a un precio accesible</h4>
           </div>
-
-          <div class="card">
+          <div class="item">
+            <i class="fa-solid fa-suitcase" style="display: block; margin: 0 auto;width: fit-content;font-size: 50px;"></i>
+            
+          </div>
+          <div class="item">
+            <i></i>
             <h4></h4>
           </div>
         </div>
       </section>
-      <section class="programs">
-        <div class="header">
-          <div>
-            <h3>PROGRAMAS DE ESTUDIO</h3>
-            <h5>TRES CARRERAS TÉCNICAS DE ALTA DEMANDA LABORAL</h5>
-          </div>
-          <p>Programas de 3 años con título técnico a nombre de la nación, certificaciones progresivas y experiencia formativas en empresas desde los primeros ciclos.</p>
-        </div>
-        <div class="programs-cards">
-          <div class="pcard">
-            <img src="imgs/cont-ibp.png" alt="">
-            <h6>Contabilidad</h6>
-            <div class="p-icons">
-              <div class="one">
-                <i class="fa-regular fa-clock"></i><p>3 años · 6 semestres</p>
-              </div>
-            </div>
-            <p>Especialistas en registro, análisis e interpretación de información financiera, gestión tributaria y reportes que sustentan la toma de decisiones económicas.</p>
-            <div class="p-footer">
-              <a href="">Más información</a>
-            </div>
-          </div>
-          <div class="pcard">
-            <img src="imgs/dsi-ibp.png" alt="">
-            <h6>Desarrollo de Sistemas de Información</h6>
-            <div class="p-icons">
-              <div class="one">
-                <i class="fa-regular fa-clock"></i><p>3 años · 6 semestres</p>
-              </div>
-            </div>
-            <p>Diseña, implementa y mantiene soluciones tecnológicas: programación, análisis de sistemas, bases de datos y gestión de proyectos para un mundo digital en constante evolución.</p>
-            <div class="p-footer">
-              <a href="">Más información</a>
-            </div>
-          </div>
-          <div class="pcard">
+
+      <section class="careers">
+        <div class="cards">
+          <div class="card">
             <img src="imgs/gadm-ibp.png" alt="">
             <h6>Gestión Administrativa</h6>
-            <div class="p-icons">
-              <div class="one">
-                <i class="fa-regular fa-clock"></i><p>3 años · 6 semestres</p>
-              </div>
-            </div>
             <p>Forma profesionales técnicos en organización, planificación y control de procesos administrativos, listos para recursos humanos, logística y atención al cliente.</p>
-            <div class="p-footer">
-              <a href="">Más información</a>
-            </div>
+            <a href=""></a>
+          </div>
+          <div class="card">
+            <img src="imgs/dsi-ibp.png" alt="">
+            <h6>Desarrollo de Sistemas de Información</h6>
+            <p>Diseña, implementa y mantiene soluciones tecnológicas: programación, análisis de sistemas, bases de datos y gestión de proyectos para un mundo digital en constante evolución.</p>
+            <a href=""></a>
+          </div>
+          <div class="card">
+            <img src="imgs/cont-ibp.png" alt="">
+            <h6>Contabilidad</h6>
+            <p>Especialistas en registro, análisis e interpretación de información financiera, gestión tributaria y reportes que sustentan la toma de decisiones económicas.</p>
+            <a href=""></a>
           </div>
         </div>
       </section>
+
       <section class="carousel">
-        <div class="header-carousel">
-          <h3>CONVENIOS IBP</h3>
-        </div>
         <div class="group">
-          <div class="item"><img src="imgs/convenios/clubu.png" alt=""></div>
-          <div class="item"><img src="imgs/convenios/ucc.png" alt=""></div>
-          <div class="item"><img src="imgs/convenios/uccs.png" alt=""></div>
-          <div class="item"><img src="imgs/convenios/upn.PNG" alt=""></div>
+          <div class="block"><img src="imgs/convenios/ucc.png" alt=""></div>
+          <div class="block"><img src="imgs/convenios/uccs.png" alt=""></div>
+          <div class="block"><img src="imgs/convenios/upn.PNG" alt=""></div>
         </div>
-        <div aria-hidden="" class="group">
-          <div class="item"><img src="imgs/convenios/clubu.png" alt=""></div>
-          <div class="item"><img src="imgs/convenios/ucc.png" alt=""></div>
-          <div class="item"><img src="imgs/convenios/uccs.png" alt=""></div>
-          <div class="item"><img src="imgs/convenios/upn.PNG" alt=""></div>
+      </section>
+
+      <section class="news">
+        <div class="text">
+          <img src="imgs/news/news1.png" alt="">
+          <h6>Title</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam velit perspiciatis ea modi asperiores rerum, laudantium enim quod tempore fuga optio alias, aperiam eius qui.</p>
+        </div>
+        <div class="text">
+          <img src="imgs/news/news2.png" alt="">
+          <h6>Title</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi, sequi fuga dolores tenetur doloribus, ratione magni eligendi molestiae eaque consequatur odit blanditiis nulla sed?</p>
+        </div>
+        <div class="text">
+          <img src="imgs/news/news3.png" alt="">
+          <h6>Title</h6>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolor nesciunt deserunt ipsa sequi, repudiandae iste nobis a fugit velit cupiditate saepe quasi odio earum.</p>
         </div>
       </section>
     </main>
-    <footer>
 
+    <footer>
+      <div class="foot">
+        <img src="imgs/logo.png" alt="">
+        <div class="consorcio">
+          <img src="" alt="">
+          <div class="txt">
+            <h6>CEP DIOCESANO EL BUEN PASTOR</h6>
+            <p>RUC: 20218819533</p>
+          </div>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="place">
+          <p>Av. Trébol 7194, Urb. Los Olivos 15302</p>
+        </div>
+        <div class="phone">
+          <p>(01) 415-5640</p>
+        </div>
+        <div class="mail">
+          <p>contact.us@ibp.edu.pe</p>
+        </div>
+      </div>
+      <div class="foot">
+        <h6>Documentos Transparentes</h6>
+        <div class="docs">
+
+        </div>
+
+      </div>
     </footer>
   </body>
 </html>

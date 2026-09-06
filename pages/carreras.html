@@ -1,44 +1,225 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../css/nav.css">
-    <title>Instituto El Buen Pastor | IBP</title>
-</head>
-<body>
-    <!-- TOMANDO INSPIRACIÓN DE LA PÁGINA DE SAN PABLO Y CERTUS -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ***Header*** -->
+    <!--links-->
+    <link rel="stylesheet" href="../style.css"/>
+    <script src="https://kit.fontawesome.com/a4b4fae7be.js" crossorigin="anonymous"></script>
+    <!---->
+
+    <title>Nuestras Carreras | IBP</title>
+  </head>
+  <body>
+
+    <!-- navbar (idéntico al index) -->
     <header class="header">
-
-      <div class="header-top">
-        <div class="media-links">
-          <a href="">FB</a>
-          <a href="">IG</a>
-          <a href="">TT</a>
+      <div class="top">
+        <div class="socialmedia">
+          <a href="https://www.facebook.com/ibp.edu.pe/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/ibp.edu.pe/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@institutoelbuenpastor" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
         </div>
-        <div class="links-box">
-          <a href="" class="intranet">Intranet</a>
-          <a href="" class="bolsa-laboral">***</a>
-          <a href="" class="biblioteca-virtual">Biblioteca Virtual</a>
+        <div class="services">
+          <a href="#">Intranet</a>
+          <a href="#">Bolsa Laboral</a>
+          <a href="#">Biblioteca Virtual</a>
         </div>
       </div>
 
-      <div class="header-bottom">
-        <a href="" class="logo"><img src="../imgs/logo transparent.png" alt=""></a>
-        <nav>
+      <div class="bottom">
+        <nav class="navbar">
+          <a href="index.html" class="logo"><img src="" alt=""></a>
           <ul>
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Nuestras Carreras</a></li>
-            <li><a href="">Nosotros</a></li>
+            <li><a href="index.html">Inicio</a></li>
           </ul>
+          <ul>
+            <li><a href="nuestras-carreras.html" class="active">Nuestras Carreras</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Servicios</a></li>
+          </ul>
+          <ul>
+            <li><a href="#">Nosotros</a></li>
+          </ul>
+          <a href="#" class="btn">ADMISIÓN</a>
         </nav>
-        <a href="" class="admision">ADMISIÓN</a>
       </div>
-  
     </header>
-    <!-- ************************************** -->
-</body>
+
+    <main>
+
+      <!-- hero de la página -->
+      <section class="page-hero">
+        <div class="page-hero-text">
+          <span class="eyebrow">Carreras Técnicas</span>
+          <h1>Nuestras Carreras</h1>
+          <p>Formación técnica de calidad, orientada al trabajo, con docentes especialistas y convenios con empresas para tus prácticas preprofesionales.</p>
+        </div>
+      </section>
+
+      <!-- índice rápido de carreras -->
+      <nav class="carrera-index">
+        <a href="#gestion-administrativa">Gestión Administrativa</a>
+        <a href="#desarrollo-sistemas">Desarrollo de Sistemas de Información</a>
+        <a href="#contabilidad">Contabilidad</a>
+      </nav>
+
+      <!-- ================= CARRERA 1 ================= -->
+      <section class="carrera-detalle" id="gestion-administrativa">
+        <div class="carrera-media">
+          <img src="../imgs/gadm-ibp.png" alt="Estudiantes de Gestión Administrativa">
+        </div>
+        <div class="carrera-info">
+          <div class="carrera-badges">
+            <span>3 años</span>
+            <span>Presencial</span>
+            <span>Título a nombre de la Nación</span>
+          </div>
+          <h2>Gestión Administrativa</h2>
+          <p class="carrera-lead">Forma profesionales técnicos capaces de organizar, planificar y controlar procesos administrativos en cualquier tipo de organización.</p>
+
+          <div class="carrera-columnas">
+            <div>
+              <h3>Perfil del egresado</h3>
+              <ul>
+                <li>Organiza y optimiza procesos administrativos y documentarios.</li>
+                <li>Aplica herramientas de gestión de recursos humanos y logística.</li>
+                <li>Brinda atención al cliente con criterio de calidad de servicio.</li>
+                <li>Maneja herramientas ofimáticas y sistemas de gestión empresarial.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Campo laboral</h3>
+              <ul>
+                <li>Áreas de recursos humanos y logística</li>
+                <li>Oficinas de atención al cliente</li>
+                <li>Asistencia administrativa en empresas públicas y privadas</li>
+                <li>Emprendimiento y gestión de negocios propios</li>
+              </ul>
+            </div>
+          </div>
+
+          <a href="#" class="btn-outline">Solicitar información</a>
+        </div>
+      </section>
+
+      <!-- ================= CARRERA 2 ================= -->
+      <section class="carrera-detalle reverso" id="desarrollo-sistemas">
+        <div class="carrera-media">
+          <img src="../imgs/dsi-ibp.png" alt="Estudiantes de Desarrollo de Sistemas de Información">
+        </div>
+        <div class="carrera-info">
+          <div class="carrera-badges">
+            <span>3 años</span>
+            <span>Presencial</span>
+            <span>Título a nombre de la Nación</span>
+          </div>
+          <h2>Desarrollo de Sistemas de Información</h2>
+          <p class="carrera-lead">Diseña, implementa y mantiene soluciones tecnológicas: programación, análisis de sistemas, bases de datos y gestión de proyectos para un mundo digital en constante evolución.</p>
+
+          <div class="carrera-columnas">
+            <div>
+              <h3>Perfil del egresado</h3>
+              <ul>
+                <li>Desarrolla aplicaciones web y de escritorio.</li>
+                <li>Diseña y administra bases de datos relacionales.</li>
+                <li>Aplica metodologías de análisis y diseño de sistemas.</li>
+                <li>Da soporte técnico y mantenimiento a infraestructura de TI.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Campo laboral</h3>
+              <ul>
+                <li>Desarrollador de software junior</li>
+                <li>Soporte técnico y mesa de ayuda</li>
+                <li>Administración de bases de datos</li>
+                <li>Áreas de sistemas en empresas públicas y privadas</li>
+              </ul>
+            </div>
+          </div>
+
+          <a href="#" class="btn-outline">Solicitar información</a>
+        </div>
+      </section>
+
+      <!-- ================= CARRERA 3 ================= -->
+      <section class="carrera-detalle" id="contabilidad">
+        <div class="carrera-media">
+          <img src="../imgs/cont-ibp.png" alt="Estudiantes de Contabilidad">
+        </div>
+        <div class="carrera-info">
+          <div class="carrera-badges">
+            <span>3 años</span>
+            <span>Presencial</span>
+            <span>Título a nombre de la Nación</span>
+          </div>
+          <h2>Contabilidad</h2>
+          <p class="carrera-lead">Especialistas en registro, análisis e interpretación de información financiera, gestión tributaria y reportes que sustentan la toma de decisiones económicas.</p>
+
+          <div class="carrera-columnas">
+            <div>
+              <h3>Perfil del egresado</h3>
+              <ul>
+                <li>Registra y controla operaciones contables y financieras.</li>
+                <li>Elabora estados financieros y reportes de gestión.</li>
+                <li>Aplica normativa tributaria vigente.</li>
+                <li>Maneja software contable especializado.</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Campo laboral</h3>
+              <ul>
+                <li>Asistente contable</li>
+                <li>Áreas de tesorería y finanzas</li>
+                <li>Estudios contables y tributarios</li>
+                <li>Emprendimiento y gestión de negocios propios</li>
+              </ul>
+            </div>
+          </div>
+
+          <a href="#" class="btn-outline">Solicitar información</a>
+        </div>
+      </section>
+
+      <!-- llamado a la acción final -->
+      <section class="carreras-cta">
+        <h2>¿Listo para dar el siguiente paso?</h2>
+        <p>Postula ahora y forma parte de la comunidad IBP.</p>
+        <a href="#" class="btn">ADMISIÓN 2026</a>
+      </section>
+
+    </main>
+
+    <footer>
+      <div class="foot">
+        <img src="" alt="">
+        <div class="consorcio">
+          <img src="" alt="">
+          <div class="txt">
+            <h6>CEP DIOCEASANO EL BUEN PASTOR</h6>
+            <p>RUC: 20218819533</p>
+          </div>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="place">
+          <p>Av. Trébol 7194, Urb. Los Olivos 15302</p>
+        </div>
+        <div class="phone">
+          <p>(01) 415-5640</p>
+        </div>
+        <div class="mail">
+          <p>contact.us@ibp.edu.pe</p>
+        </div>
+      </div>
+      <div class="foot">
+        <h6>Documentos Transparentes</h6>
+        <div class="docs">
+
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
